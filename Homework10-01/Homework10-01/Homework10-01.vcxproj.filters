@@ -13,6 +13,9 @@
       <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
       <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
     </Filter>
+    <Filter Include="헤더 파일\3-8-2">
+      <UniqueIdentifier>{eec7503e-bbe9-4dde-8ba9-58829d9ef9f6}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <Text Include="ReadMe.txt" />
@@ -42,5 +45,25 @@
     <ClCompile Include="3-8-1.cpp">
       <Filter>소스 파일</Filter>
     </ClCompile>
+    <ClCompile Include="3-8-2.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="3-8-2.h">
+      <Filter>헤더 파일\3-8-2</Filter>
+    </ClInclude>
+    <ClInclude Include="3-8-2-add.h">
+      <Filter>헤더 파일\3-8-2</Filter>
+    </ClInclude>
+    <ClInclude Include="3-8-2-div.h">
+      <Filter>헤더 파일\3-8-2</Filter>
+    </ClInclude>
+    <ClInclude Include="3-8-2-mul.h">
+      <Filter>헤더 파일\3-8-2</Filter>
+    </ClInclude>
+    <ClInclude Include="3-8-2-sub.h">
+      <Filter>헤더 파일\3-8-2</Filter>
+    </ClInclude>
   </ItemGroup>
 </Project>
