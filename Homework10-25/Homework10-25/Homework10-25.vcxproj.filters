@@ -31,6 +31,12 @@
     <Filter Include="헤더 파일\04-07">
       <UniqueIdentifier>{650f18e7-ae87-4a31-8fe5-c22ab2f2bc70}</UniqueIdentifier>
     </Filter>
+    <Filter Include="소스 파일\05-01">
+      <UniqueIdentifier>{18b2e863-209f-430a-9749-83c1d1abc542}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="헤더 파일\05-01">
+      <UniqueIdentifier>{c6a52bb9-d242-44ef-bb38-0cb4ecc06a57}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="main0405.cpp">
@@ -41,6 +47,9 @@
     </ClCompile>
     <ClCompile Include="main0407.cpp">
       <Filter>소스 파일\04-07</Filter>
+    </ClCompile>
+    <ClCompile Include="main0501.cpp">
+      <Filter>소스 파일\05-01</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
