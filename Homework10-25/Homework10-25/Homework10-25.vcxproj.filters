@@ -43,6 +43,12 @@
     <Filter Include="헤더 파일\05-03">
       <UniqueIdentifier>{a3901086-6da0-4cea-87d5-4ec672346dcb}</UniqueIdentifier>
     </Filter>
+    <Filter Include="소스 파일\05-08">
+      <UniqueIdentifier>{3d62ee3a-9ff8-487b-a064-35896b368aeb}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="헤더 파일\05-08">
+      <UniqueIdentifier>{05d516b3-3873-4d93-a8f3-3caa3b391572}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="main0405.cpp">
@@ -60,6 +66,9 @@
     <ClCompile Include="main0503.cpp">
       <Filter>소스 파일\05-03</Filter>
     </ClCompile>
+    <ClCompile Include="main0508.cpp">
+      <Filter>소스 파일\05-08</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="Sample.h">
@@ -73,6 +82,9 @@
     </ClInclude>
     <ClInclude Include="CIrcle0503.h">
       <Filter>헤더 파일\05-03</Filter>
+    </ClInclude>
+    <ClInclude Include="Book.h">
+      <Filter>헤더 파일\05-08</Filter>
     </ClInclude>
   </ItemGroup>
 </Project>
