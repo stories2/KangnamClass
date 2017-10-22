@@ -7,16 +7,19 @@ class MyVector {
 	int *mem;
 	int size;
 public :
-	MyVector(int n, int val);
+	MyVector(int n = 100, int val = 0);
 	~MyVector() {
 		delete[] mem;
 	}
+	void show() {
+		cout << "size: " << size << " val: " << mem[0] << endl;
+	}
 };
 
-MyVector::MyVector(int n = 100, int val = 0) {
+MyVector::MyVector(int n, int val) {
 	int i;
 
-	mem = new int[100];
+	mem = new int[n];
 	size = n;
 
 	for (i = 0; i < size; i += 1) {

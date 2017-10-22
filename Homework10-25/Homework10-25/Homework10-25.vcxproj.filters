@@ -61,6 +61,12 @@
     <Filter Include="헤더 파일\06-03">
       <UniqueIdentifier>{f0adf653-ff22-4397-9338-975aa9e9cea8}</UniqueIdentifier>
     </Filter>
+    <Filter Include="소스 파일\06-04">
+      <UniqueIdentifier>{206a1bc0-a25f-42c7-8cc2-30db8344fecf}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="헤더 파일\06-04">
+      <UniqueIdentifier>{8080293a-042c-42dd-8082-2ca49eeaa10e}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="main0405.cpp">
@@ -87,6 +93,9 @@
     <ClCompile Include="main0603.cpp">
       <Filter>소스 파일\06-03</Filter>
     </ClCompile>
+    <ClCompile Include="main0604.cpp">
+      <Filter>소스 파일\06-04</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="Sample.h">
@@ -106,6 +115,9 @@
     </ClInclude>
     <ClInclude Include="Person0602.h">
       <Filter>헤더 파일\06-02</Filter>
+    </ClInclude>
+    <ClInclude Include="MyVector.h">
+      <Filter>헤더 파일\06-04</Filter>
     </ClInclude>
   </ItemGroup>
 </Project>
