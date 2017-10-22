@@ -34,7 +34,10 @@
     <ClCompile Include="main0503.cpp">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</ExcludedFromBuild>
     </ClCompile>
-    <ClCompile Include="main0508.cpp" />
+    <ClCompile Include="main0508.cpp">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</ExcludedFromBuild>
+    </ClCompile>
+    <ClCompile Include="main0602.cpp" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="Book.h" />
@@ -43,6 +46,7 @@
     </ClInclude>
     <ClInclude Include="CIrcle0503.h" />
     <ClInclude Include="Person.h" />
+    <ClInclude Include="Person0602.h" />
     <ClInclude Include="Sample.h">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">false</ExcludedFromBuild>
     </ClInclude>
