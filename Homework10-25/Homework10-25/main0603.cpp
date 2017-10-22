@@ -1,8 +1,24 @@
 #include <iostream>
 
 using namespace std;
-
+/*
 int big(int a, int b, int limit = 100) {
+	int result = a;
+	if (a < b) {
+		result = b;
+	}
+	return result > limit ? limit : result;
+}*/
+
+int big(int a, int b) {
+	int result = a;
+	if (a < b) {
+		result = b;
+	}
+	return result > 100 ? 100 : result;
+}
+
+int big(int a, int b, int limit) {
 	int result = a;
 	if (a < b) {
 		result = b;
