@@ -42,3 +42,7 @@ int Sample::big() {
 	}
 	return max;
 }
+
+Sample::~Sample() {
+	delete[] p;
+}
