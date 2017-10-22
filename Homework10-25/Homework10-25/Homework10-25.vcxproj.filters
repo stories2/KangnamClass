@@ -13,10 +13,21 @@
       <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
       <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
     </Filter>
+    <Filter Include="소스 파일\04-02">
+      <UniqueIdentifier>{e6c1336c-8393-48f3-b160-7531cf506588}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="헤더 파일\04-02">
+      <UniqueIdentifier>{166ecf04-55f4-42b8-aad1-d20982bb35b4}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="Homework10-25.cpp">
-      <Filter>소스 파일</Filter>
+    <ClCompile Include="main.cpp">
+      <Filter>소스 파일\04-02</Filter>
     </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Sample.h">
+      <Filter>헤더 파일\04-02</Filter>
+    </ClInclude>
   </ItemGroup>
 </Project>
