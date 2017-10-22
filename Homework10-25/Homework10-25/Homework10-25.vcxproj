@@ -22,12 +22,18 @@
     <ClCompile Include="main0402.cpp">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</ExcludedFromBuild>
     </ClCompile>
-    <ClCompile Include="main0405.cpp" />
+    <ClCompile Include="main0405.cpp">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</ExcludedFromBuild>
+    </ClCompile>
+    <ClCompile Include="main0407.cpp" />
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="Circle.h" />
+    <ClInclude Include="Circle.h">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">false</ExcludedFromBuild>
+    </ClInclude>
+    <ClInclude Include="Person.h" />
     <ClInclude Include="Sample.h">
-      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">false</ExcludedFromBuild>
     </ClInclude>
   </ItemGroup>
   <PropertyGroup Label="Globals">

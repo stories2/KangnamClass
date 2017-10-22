@@ -25,6 +25,12 @@
     <Filter Include="헤더 파일\04-05">
       <UniqueIdentifier>{95cb4bc2-598d-4203-a9d6-2129ea122df3}</UniqueIdentifier>
     </Filter>
+    <Filter Include="소스 파일\04-07">
+      <UniqueIdentifier>{8c950a41-99ef-4f9e-9865-c40318c55e60}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="헤더 파일\04-07">
+      <UniqueIdentifier>{650f18e7-ae87-4a31-8fe5-c22ab2f2bc70}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="main0405.cpp">
@@ -33,6 +39,9 @@
     <ClCompile Include="main0402.cpp">
       <Filter>소스 파일\04-02</Filter>
     </ClCompile>
+    <ClCompile Include="main0407.cpp">
+      <Filter>소스 파일\04-07</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="Sample.h">
@@ -40,6 +49,9 @@
     </ClInclude>
     <ClInclude Include="Circle.h">
       <Filter>헤더 파일\04-05</Filter>
+    </ClInclude>
+    <ClInclude Include="Person.h">
+      <Filter>헤더 파일\04-07</Filter>
     </ClInclude>
   </ItemGroup>
 </Project>

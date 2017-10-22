@@ -8,7 +8,7 @@ int main() {
 	cout << "이름과 전화 번호를 입력해 주세요" << endl;
 	for (i = 0; i < 3; i += 1) {
 		string temp[2];
-		cout << "사람 " << i << ">> ";
+		cout << "사람 " << i + 1 << ">> ";
 		cin >> temp[0];
 		cin >> temp[1];
 		person[i].set(temp[0], temp[1]);
