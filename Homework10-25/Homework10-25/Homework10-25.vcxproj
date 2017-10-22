@@ -37,7 +37,10 @@
     <ClCompile Include="main0508.cpp">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</ExcludedFromBuild>
     </ClCompile>
-    <ClCompile Include="main0602.cpp" />
+    <ClCompile Include="main0602.cpp">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</ExcludedFromBuild>
+    </ClCompile>
+    <ClCompile Include="main0603.cpp" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="Book.h" />
