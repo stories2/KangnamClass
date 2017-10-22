@@ -8,15 +8,22 @@ class Person {
 	int id;
 	double weight;
 	string name;
-public :
+public :/*
 	Person();
-	Person(int, string);
+	Person(int, string);*/
 	Person(int, string, double);
 	void show() {
 		cout << id << ' ' << weight << ' ' << name << endl;
 	}
 };
 
+Person::Person(int id = 1, string name = "Grace", double weight = 20.5) {
+	this->id = id;
+	this->name = name;
+	this->weight = weight;
+}
+
+/*
 Person::Person() {
 	id = 1;
 	weight = 20.5;
@@ -33,4 +40,4 @@ Person::Person(int id, string name, double weight) {
 	this->id = id;
 	this->name = name;
 	this->weight = weight;
-}
+}*/
