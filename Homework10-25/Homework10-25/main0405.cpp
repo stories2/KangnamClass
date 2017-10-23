@@ -7,6 +7,7 @@ int main() {
 	int i, overCutLine = 0;
 	for (i = 0; i < 3; i += 1) {
 		int radius;
+		cout << "원 " << i + 1 << "의 반지름 >> ";
 		cin >> radius;
 		circle[i].setRadius(radius);
 		if (circle[i].getArea() > CUT_LINE) {
