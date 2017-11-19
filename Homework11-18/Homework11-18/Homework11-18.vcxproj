@@ -173,9 +173,32 @@
     <ClCompile Include="7-7.cpp">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</ExcludedFromBuild>
     </ClCompile>
-    <ClCompile Include="7-8.cpp" />
+    <ClCompile Include="7-8.cpp">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</ExcludedFromBuild>
+    </ClCompile>
+    <ClCompile Include="8-1.cpp">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</ExcludedFromBuild>
+    </ClCompile>
+    <ClCompile Include="8-2.cpp">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</ExcludedFromBuild>
+    </ClCompile>
+    <ClCompile Include="8-3.cpp">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</ExcludedFromBuild>
+    </ClCompile>
+    <ClCompile Include="8-4.cpp">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</ExcludedFromBuild>
+    </ClCompile>
+    <ClCompile Include="8-5.cpp">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</ExcludedFromBuild>
+    </ClCompile>
+    <ClCompile Include="8-6.cpp">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">false</ExcludedFromBuild>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
+    <ClInclude Include="BaseArray8-5.h" />
+    <ClInclude Include="BaseArray8-6.h" />
+    <ClInclude Include="Point8-4.h" />
     <ClInclude Include="Book7-1-1.h" />
     <ClInclude Include="Book7-1-2.h" />
     <ClInclude Include="Book7-2-1.h" />
@@ -184,8 +207,11 @@
     <ClInclude Include="Book7-4.h" />
     <ClInclude Include="Circle7-7.h" />
     <ClInclude Include="Circle7-8.h" />
+    <ClInclude Include="Circle8-1.h" />
+    <ClInclude Include="Circle8-2.h" />
     <ClInclude Include="Matrix7-6-1.h" />
     <ClInclude Include="Matrix7-6-2.h" />
+    <ClInclude Include="Point8-3.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
