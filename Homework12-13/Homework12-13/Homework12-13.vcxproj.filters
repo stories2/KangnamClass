@@ -48,6 +48,9 @@
     <ClCompile Include="10-05.cpp">
       <Filter>소스 파일</Filter>
     </ClCompile>
+    <ClCompile Include="10-07.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="09-02Converter.h">
