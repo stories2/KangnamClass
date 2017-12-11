@@ -1,6 +1,6 @@
-#include "09-07Oval.h"
-#include "09-07Rect.h"
-#include "09-07Triangular.h"
+#include "09-08Oval.h"
+#include "09-08Rect.h"
+#include "09-08Triangular.h"
 
 int main() {
 	Shape *p[3];

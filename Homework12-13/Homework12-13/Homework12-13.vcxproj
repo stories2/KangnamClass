@@ -152,7 +152,13 @@
     <ClCompile Include="09-05.cpp">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</ExcludedFromBuild>
     </ClCompile>
-    <ClCompile Include="09-06.cpp" />
+    <ClCompile Include="09-06.cpp">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</ExcludedFromBuild>
+    </ClCompile>
+    <ClCompile Include="09-07.cpp">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</ExcludedFromBuild>
+    </ClCompile>
+    <ClCompile Include="09-08.cpp" />
     <ClCompile Include="Homework12-13.cpp">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</ExcludedFromBuild>
     </ClCompile>
@@ -169,6 +175,14 @@
     <ClInclude Include="09-05XORGate.h" />
     <ClInclude Include="09-06AbstractStack.h" />
     <ClInclude Include="09-06MyStack.h" />
+    <ClInclude Include="09-07Oval.h" />
+    <ClInclude Include="09-07Rect.h" />
+    <ClInclude Include="09-07Shape.h" />
+    <ClInclude Include="09-07Triangular.h" />
+    <ClInclude Include="09-08Oval.h" />
+    <ClInclude Include="09-08Rect.h" />
+    <ClInclude Include="09-08Shape.h" />
+    <ClInclude Include="09-08Triangular.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
