@@ -44,5 +44,17 @@
     <ClInclude Include="09-04DoWhileLoopAdder.h">
       <Filter>헤더 파일</Filter>
     </ClInclude>
+    <ClInclude Include="09-05AbstractGate.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="09-05ANDGate.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="09-05ORGate.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="09-05XORGate.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
   </ItemGroup>
 </Project>

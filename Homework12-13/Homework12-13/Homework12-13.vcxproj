@@ -160,6 +160,10 @@
     <ClInclude Include="09-04DoWhileLoopAdder.h" />
     <ClInclude Include="09-04LoopAdder.h" />
     <ClInclude Include="09-04WhileLoopAdder.h" />
+    <ClInclude Include="09-05AbstractGate.h" />
+    <ClInclude Include="09-05ANDGate.h" />
+    <ClInclude Include="09-05ORGate.h" />
+    <ClInclude Include="09-05XORGate.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
