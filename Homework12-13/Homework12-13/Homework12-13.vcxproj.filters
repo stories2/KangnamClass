@@ -51,6 +51,12 @@
     <ClCompile Include="10-07.cpp">
       <Filter>소스 파일</Filter>
     </ClCompile>
+    <ClCompile Include="10-08.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="10-09.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="09-02Converter.h">
@@ -108,6 +114,9 @@
       <Filter>헤더 파일</Filter>
     </ClInclude>
     <ClInclude Include="09-08Triangular.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="10-08Comparable.h">
       <Filter>헤더 파일</Filter>
     </ClInclude>
   </ItemGroup>
